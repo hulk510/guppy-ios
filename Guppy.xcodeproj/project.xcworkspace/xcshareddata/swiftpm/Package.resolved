@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "fscalendar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/WenchaoD/FSCalendar.git",
+      "state" : {
+        "revision" : "0fbdec5172fccb90f707472eeaea4ffe095278f6",
+        "version" : "2.8.4"
+      }
+    },
+    {
+      "identity" : "sfuserfriendlysymbols",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/littleossa/SFUserFriendlySymbols.git",
+      "state" : {
+        "revision" : "9d003e1c818de1dbe34a36b197ce11d9524a54d9",
+        "version" : "0.4.0"
+      }
+    }
+  ],
+  "version" : 2
+}

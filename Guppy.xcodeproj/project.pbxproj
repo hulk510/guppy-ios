@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		122F38072993E6A000276F74 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122F38062993E6A000276F74 /* FontExtension.swift */; };
+		122F380A2993E89400276F74 /* SelectCategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122F38092993E89400276F74 /* SelectCategoryListView.swift */; };
+		122F38102993ECFE00276F74 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122F380F2993ECFE00276F74 /* ActivityView.swift */; };
+		122F38132993EEE500276F74 /* SFUserFriendlySymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 122F38122993EEE500276F74 /* SFUserFriendlySymbols */; };
+		122F38152993F37800276F74 /* StorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122F38142993F37800276F74 /* StorageView.swift */; };
+		122F38172994D90200276F74 /* UserStorageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122F38162994D90200276F74 /* UserStorageListView.swift */; };
+		122F38192996004A00276F74 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122F38182996004A00276F74 /* CategoryView.swift */; };
+		122F381B2996017400276F74 /* ActivityFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122F381A2996017400276F74 /* ActivityFormView.swift */; };
+		122F381D29960EF300276F74 /* StorageChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122F381C29960EF300276F74 /* StorageChartView.swift */; };
+		124AC2C5299DE8C8006D4646 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124AC2C1299DE8C8006D4646 /* Category+CoreDataClass.swift */; };
+		124AC2C7299DE8C8006D4646 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124AC2C2299DE8C8006D4646 /* Category+CoreDataProperties.swift */; };
+		124AC2E5299E855A006D4646 /* Activity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124AC2E4299E855A006D4646 /* Activity+CoreDataClass.swift */; };
+		124AC2E7299E857C006D4646 /* Activity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124AC2E6299E857C006D4646 /* Activity+CoreDataProperties.swift */; };
+		124AC2F0299E86F8006D4646 /* GuppyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124AC2EF299E86F8006D4646 /* GuppyTests.swift */; };
+		124AC2F8299F1DC1006D4646 /* CreateActivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124AC2F7299F1DC1006D4646 /* CreateActivityTests.swift */; };
+		124AC31F29A0CAD1006D4646 /* LoadDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124AC31E29A0CAD1006D4646 /* LoadDataView.swift */; };
+		124BEF9F29AF935600522901 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124BEF9E29AF935600522901 /* DateExtension.swift */; };
+		124BEFA329B074E300522901 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 124BEFA229B074E300522901 /* FSCalendar */; };
+		124BEFA529B0757400522901 /* CalendarViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124BEFA429B0757400522901 /* CalendarViewRepresentable.swift */; };
+		124BEFA729B08D6500522901 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124BEFA629B08D6500522901 /* Event.swift */; };
+		126B95F329BA0AE00059ADDD /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126B95F229BA0AE00059ADDD /* CalendarView.swift */; };
+		1270D6352992205200B49292 /* GuppyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1270D6342992205200B49292 /* GuppyApp.swift */; };
+		1270D6372992205200B49292 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1270D6362992205200B49292 /* Persistence.swift */; };
+		1270D63A2992205200B49292 /* Guppy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1270D6382992205200B49292 /* Guppy.xcdatamodeld */; };
+		1270D63C2992205200B49292 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1270D63B2992205200B49292 /* ContentView.swift */; };
+		1270D63E2992205300B49292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1270D63D2992205300B49292 /* Assets.xcassets */; };
+		1270D6422992205300B49292 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1270D6412992205300B49292 /* Preview Assets.xcassets */; };
+		1270D6562992205300B49292 /* GuppyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1270D6552992205300B49292 /* GuppyUITests.swift */; };
+		1270D6582992205300B49292 /* GuppyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1270D6572992205300B49292 /* GuppyUITestsLaunchTests.swift */; };
+		12A4301E29C3456300C53A9F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A4301D29C3456300C53A9F /* Launch Screen.storyboard */; };
+		12FC6CA42993C76F00504FEF /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FC6CA32993C76F00504FEF /* TimelineView.swift */; };
+		12FC6CA62993CF9600504FEF /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FC6CA52993CF9600504FEF /* Color.xcassets */; };
+		12FC6CA82993D10600504FEF /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FC6CA72993D10600504FEF /* ColorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1270D6482992205300B49292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1270D6292992205200B49292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1270D6302992205200B49292;
+			remoteInfo = Guppy;
+		};
+		1270D6522992205300B49292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1270D6292992205200B49292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1270D6302992205200B49292;
+			remoteInfo = Guppy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		122F38062993E6A000276F74 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		122F38092993E89400276F74 /* SelectCategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategoryListView.swift; sourceTree = "<group>"; };
+		122F380F2993ECFE00276F74 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		122F38142993F37800276F74 /* StorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageView.swift; sourceTree = "<group>"; };
+		122F38162994D90200276F74 /* UserStorageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorageListView.swift; sourceTree = "<group>"; };
+		122F38182996004A00276F74 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		122F381A2996017400276F74 /* ActivityFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityFormView.swift; sourceTree = "<group>"; };
+		122F381C29960EF300276F74 /* StorageChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageChartView.swift; sourceTree = "<group>"; };
+		122F381E2996179800276F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124AC2C1299DE8C8006D4646 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		124AC2C2299DE8C8006D4646 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		124AC2E4299E855A006D4646 /* Activity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		124AC2E6299E857C006D4646 /* Activity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		124AC2EF299E86F8006D4646 /* GuppyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuppyTests.swift; sourceTree = "<group>"; };
+		124AC2F7299F1DC1006D4646 /* CreateActivityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateActivityTests.swift; sourceTree = "<group>"; };
+		124AC31E29A0CAD1006D4646 /* LoadDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataView.swift; sourceTree = "<group>"; };
+		124BEF9E29AF935600522901 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		124BEFA429B0757400522901 /* CalendarViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewRepresentable.swift; sourceTree = "<group>"; };
+		124BEFA629B08D6500522901 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		126B95F229BA0AE00059ADDD /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		1270D6312992205200B49292 /* Guppy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guppy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1270D6342992205200B49292 /* GuppyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuppyApp.swift; sourceTree = "<group>"; };
+		1270D6362992205200B49292 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1270D6392992205200B49292 /* Guppy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Guppy.xcdatamodel; sourceTree = "<group>"; };
+		1270D63B2992205200B49292 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1270D63D2992205300B49292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1270D63F2992205300B49292 /* Guppy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Guppy.entitlements; sourceTree = "<group>"; };
+		1270D6412992205300B49292 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1270D6472992205300B49292 /* GuppyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuppyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1270D6512992205300B49292 /* GuppyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuppyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1270D6552992205300B49292 /* GuppyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuppyUITests.swift; sourceTree = "<group>"; };
+		1270D6572992205300B49292 /* GuppyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuppyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12A4301D29C3456300C53A9F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		12FC6CA32993C76F00504FEF /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		12FC6CA52993CF9600504FEF /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		12FC6CA72993D10600504FEF /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1270D62E2992205200B49292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122F38132993EEE500276F74 /* SFUserFriendlySymbols in Frameworks */,
+				124BEFA329B074E300522901 /* FSCalendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1270D6442992205300B49292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1270D64E2992205300B49292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122F38082993E7F300276F74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12FC6CA72993D10600504FEF /* ColorExtension.swift */,
+				122F38062993E6A000276F74 /* FontExtension.swift */,
+				124BEF9E29AF935600522901 /* DateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		122F380B2993E96A00276F74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				124BEFA629B08D6500522901 /* Event.swift */,
+				124AC2C1299DE8C8006D4646 /* Category+CoreDataClass.swift */,
+				124AC2C2299DE8C8006D4646 /* Category+CoreDataProperties.swift */,
+				124AC2E4299E855A006D4646 /* Activity+CoreDataClass.swift */,
+				124AC2E6299E857C006D4646 /* Activity+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		124AC29C299DD1D5006D4646 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1270D63D2992205300B49292 /* Assets.xcassets */,
+				12FC6CA52993CF9600504FEF /* Color.xcassets */,
+				1270D63F2992205300B49292 /* Guppy.entitlements */,
+				122F381E2996179800276F74 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		124AC29D299DD259006D4646 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12FC6CA32993C76F00504FEF /* TimelineView.swift */,
+				122F38162994D90200276F74 /* UserStorageListView.swift */,
+				122F38142993F37800276F74 /* StorageView.swift */,
+				122F381C29960EF300276F74 /* StorageChartView.swift */,
+				122F380F2993ECFE00276F74 /* ActivityView.swift */,
+				122F38092993E89400276F74 /* SelectCategoryListView.swift */,
+				122F38182996004A00276F74 /* CategoryView.swift */,
+				122F381A2996017400276F74 /* ActivityFormView.swift */,
+				124BEFA429B0757400522901 /* CalendarViewRepresentable.swift */,
+				126B95F229BA0AE00059ADDD /* CalendarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		124AC2ED299E86C2006D4646 /* GuppyTests */ = {
+			isa = PBXGroup;
+			children = (
+				124AC2EF299E86F8006D4646 /* GuppyTests.swift */,
+				124AC2F7299F1DC1006D4646 /* CreateActivityTests.swift */,
+			);
+			path = GuppyTests;
+			sourceTree = "<group>";
+		};
+		1270D6282992205200B49292 = {
+			isa = PBXGroup;
+			children = (
+				1270D6332992205200B49292 /* Guppy */,
+				124AC2ED299E86C2006D4646 /* GuppyTests */,
+				1270D6542992205300B49292 /* GuppyUITests */,
+				1270D6322992205200B49292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1270D6322992205200B49292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1270D6312992205200B49292 /* Guppy.app */,
+				1270D6472992205300B49292 /* GuppyTests.xctest */,
+				1270D6512992205300B49292 /* GuppyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1270D6332992205200B49292 /* Guppy */ = {
+			isa = PBXGroup;
+			children = (
+				124AC29C299DD1D5006D4646 /* Resources */,
+				122F380B2993E96A00276F74 /* Models */,
+				124AC29D299DD259006D4646 /* Views */,
+				122F38082993E7F300276F74 /* Extensions */,
+				1270D6342992205200B49292 /* GuppyApp.swift */,
+				1270D6362992205200B49292 /* Persistence.swift */,
+				1270D63B2992205200B49292 /* ContentView.swift */,
+				124AC31E29A0CAD1006D4646 /* LoadDataView.swift */,
+				12A4301D29C3456300C53A9F /* Launch Screen.storyboard */,
+				1270D6382992205200B49292 /* Guppy.xcdatamodeld */,
+				1270D6402992205300B49292 /* Preview Content */,
+			);
+			path = Guppy;
+			sourceTree = "<group>";
+		};
+		1270D6402992205300B49292 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1270D6412992205300B49292 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1270D6542992205300B49292 /* GuppyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1270D6552992205300B49292 /* GuppyUITests.swift */,
+				1270D6572992205300B49292 /* GuppyUITestsLaunchTests.swift */,
+			);
+			path = GuppyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1270D6302992205200B49292 /* Guppy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1270D65B2992205300B49292 /* Build configuration list for PBXNativeTarget "Guppy" */;
+			buildPhases = (
+				1270D62D2992205200B49292 /* Sources */,
+				1270D62E2992205200B49292 /* Frameworks */,
+				1270D62F2992205200B49292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guppy;
+			packageProductDependencies = (
+				122F38122993EEE500276F74 /* SFUserFriendlySymbols */,
+				124BEFA229B074E300522901 /* FSCalendar */,
+			);
+			productName = Guppy;
+			productReference = 1270D6312992205200B49292 /* Guppy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1270D6462992205300B49292 /* GuppyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1270D65E2992205300B49292 /* Build configuration list for PBXNativeTarget "GuppyTests" */;
+			buildPhases = (
+				1270D6432992205300B49292 /* Sources */,
+				1270D6442992205300B49292 /* Frameworks */,
+				1270D6452992205300B49292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1270D6492992205300B49292 /* PBXTargetDependency */,
+			);
+			name = GuppyTests;
+			productName = GuppyTests;
+			productReference = 1270D6472992205300B49292 /* GuppyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1270D6502992205300B49292 /* GuppyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1270D6612992205300B49292 /* Build configuration list for PBXNativeTarget "GuppyUITests" */;
+			buildPhases = (
+				1270D64D2992205300B49292 /* Sources */,
+				1270D64E2992205300B49292 /* Frameworks */,
+				1270D64F2992205300B49292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1270D6532992205300B49292 /* PBXTargetDependency */,
+			);
+			name = GuppyUITests;
+			productName = GuppyUITests;
+			productReference = 1270D6512992205300B49292 /* GuppyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1270D6292992205200B49292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					1270D6302992205200B49292 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					1270D6462992205300B49292 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1270D6302992205200B49292;
+					};
+					1270D6502992205300B49292 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1270D6302992205200B49292;
+					};
+				};
+			};
+			buildConfigurationList = 1270D62C2992205200B49292 /* Build configuration list for PBXProject "Guppy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1270D6282992205200B49292;
+			packageReferences = (
+				122F38112993EEE500276F74 /* XCRemoteSwiftPackageReference "SFUserFriendlySymbols" */,
+				124BEFA129B074E300522901 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
+			productRefGroup = 1270D6322992205200B49292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1270D6302992205200B49292 /* Guppy */,
+				1270D6462992205300B49292 /* GuppyTests */,
+				1270D6502992205300B49292 /* GuppyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1270D62F2992205200B49292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1270D6422992205300B49292 /* Preview Assets.xcassets in Resources */,
+				1270D63E2992205300B49292 /* Assets.xcassets in Resources */,
+				12A4301E29C3456300C53A9F /* Launch Screen.storyboard in Resources */,
+				12FC6CA62993CF9600504FEF /* Color.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1270D6452992205300B49292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1270D64F2992205300B49292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1270D62D2992205200B49292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1270D63A2992205200B49292 /* Guppy.xcdatamodeld in Sources */,
+				124BEF9F29AF935600522901 /* DateExtension.swift in Sources */,
+				126B95F329BA0AE00059ADDD /* CalendarView.swift in Sources */,
+				124AC2C7299DE8C8006D4646 /* Category+CoreDataProperties.swift in Sources */,
+				1270D6352992205200B49292 /* GuppyApp.swift in Sources */,
+				124AC2C5299DE8C8006D4646 /* Category+CoreDataClass.swift in Sources */,
+				124AC2E5299E855A006D4646 /* Activity+CoreDataClass.swift in Sources */,
+				122F38072993E6A000276F74 /* FontExtension.swift in Sources */,
+				122F38172994D90200276F74 /* UserStorageListView.swift in Sources */,
+				122F38192996004A00276F74 /* CategoryView.swift in Sources */,
+				124AC2E7299E857C006D4646 /* Activity+CoreDataProperties.swift in Sources */,
+				122F38152993F37800276F74 /* StorageView.swift in Sources */,
+				1270D63C2992205200B49292 /* ContentView.swift in Sources */,
+				124BEFA729B08D6500522901 /* Event.swift in Sources */,
+				122F38102993ECFE00276F74 /* ActivityView.swift in Sources */,
+				124BEFA529B0757400522901 /* CalendarViewRepresentable.swift in Sources */,
+				124AC31F29A0CAD1006D4646 /* LoadDataView.swift in Sources */,
+				122F380A2993E89400276F74 /* SelectCategoryListView.swift in Sources */,
+				12FC6CA82993D10600504FEF /* ColorExtension.swift in Sources */,
+				122F381B2996017400276F74 /* ActivityFormView.swift in Sources */,
+				1270D6372992205200B49292 /* Persistence.swift in Sources */,
+				122F381D29960EF300276F74 /* StorageChartView.swift in Sources */,
+				12FC6CA42993C76F00504FEF /* TimelineView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1270D6432992205300B49292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124AC2F8299F1DC1006D4646 /* CreateActivityTests.swift in Sources */,
+				124AC2F0299E86F8006D4646 /* GuppyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1270D64D2992205300B49292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1270D6582992205300B49292 /* GuppyUITestsLaunchTests.swift in Sources */,
+				1270D6562992205300B49292 /* GuppyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1270D6492992205300B49292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1270D6302992205200B49292 /* Guppy */;
+			targetProxy = 1270D6482992205300B49292 /* PBXContainerItemProxy */;
+		};
+		1270D6532992205300B49292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1270D6302992205200B49292 /* Guppy */;
+			targetProxy = 1270D6522992205300B49292 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1270D6592992205300B49292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1270D65A2992205300B49292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1270D65C2992205300B49292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Guppy/Resources/Guppy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guppy/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U5876YZ4F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Guppy/Resources/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MMMM.Guppy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1270D65D2992205300B49292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Guppy/Resources/Guppy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guppy/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U5876YZ4F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Guppy/Resources/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MMMM.Guppy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1270D65F2992205300B49292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U5876YZ4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MMMM.GuppyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guppy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guppy";
+			};
+			name = Debug;
+		};
+		1270D6602992205300B49292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U5876YZ4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MMMM.GuppyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guppy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guppy";
+			};
+			name = Release;
+		};
+		1270D6622992205300B49292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U5876YZ4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MMMM.GuppyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Guppy;
+			};
+			name = Debug;
+		};
+		1270D6632992205300B49292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U5876YZ4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MMMM.GuppyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Guppy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1270D62C2992205200B49292 /* Build configuration list for PBXProject "Guppy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1270D6592992205300B49292 /* Debug */,
+				1270D65A2992205300B49292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1270D65B2992205300B49292 /* Build configuration list for PBXNativeTarget "Guppy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1270D65C2992205300B49292 /* Debug */,
+				1270D65D2992205300B49292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1270D65E2992205300B49292 /* Build configuration list for PBXNativeTarget "GuppyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1270D65F2992205300B49292 /* Debug */,
+				1270D6602992205300B49292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1270D6612992205300B49292 /* Build configuration list for PBXNativeTarget "GuppyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1270D6622992205300B49292 /* Debug */,
+				1270D6632992205300B49292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		122F38112993EEE500276F74 /* XCRemoteSwiftPackageReference "SFUserFriendlySymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/littleossa/SFUserFriendlySymbols.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		124BEFA129B074E300522901 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		122F38122993EEE500276F74 /* SFUserFriendlySymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 122F38112993EEE500276F74 /* XCRemoteSwiftPackageReference "SFUserFriendlySymbols" */;
+			productName = SFUserFriendlySymbols;
+		};
+		124BEFA229B074E300522901 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 124BEFA129B074E300522901 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		1270D6382992205200B49292 /* Guppy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1270D6392992205200B49292 /* Guppy.xcdatamodel */,
+			);
+			currentVersion = 1270D6392992205200B49292 /* Guppy.xcdatamodel */;
+			path = Guppy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1270D6292992205200B49292 /* Project object */;
+}
