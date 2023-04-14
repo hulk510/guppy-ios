@@ -1,4 +1,4 @@
-アプリでスケジュール作るアプリ作ってみた。
+スケジュール作るアプリ作ってみた。
 
 ![home](image/home.png)
 ![splash](image/splash.png)
